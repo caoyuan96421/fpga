@@ -70,9 +70,9 @@ led[0]                       : 3         : output : 3.3-V LVTTL       :         
 GND*                         : 4         :        :                   :         : 1         :                
 VCCIO1                       : 5         : power  :                   : 3.3V    : 1         :                
 GND                          : 6         : gnd    :                   :         :           :                
-led[1]                       : 7         : output : 3.3-V LVTTL       :         : 1         : Y              
-led[3]                       : 8         : output : 3.3-V LVTTL       :         : 1         : Y              
-led[2]                       : 9         : output : 3.3-V LVTTL       :         : 1         : Y              
+GND*                         : 7         :        :                   :         : 1         :                
+GND*                         : 8         :        :                   :         : 1         :                
+GND*                         : 9         :        :                   :         : 1         :                
 TDO                          : 10        : output :                   :         : 1         :                
 TMS                          : 11        : input  :                   :         : 1         :                
 TCK                          : 12        : input  :                   :         : 1         :                
