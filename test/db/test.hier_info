@@ -1,0 +1,190 @@
+|test
+out[0] <= test_block:inst.out1[0]
+out[1] <= test_block:inst.out1[1]
+out[2] <= test_block:inst.out1[2]
+out[3] <= test_block:inst.out1[3]
+clksrc => pll:inst1.inclk0
+pin_name1 => mux2:inst5.sel
+
+
+|test|test_block:inst
+in1[0] => Add0.IN4
+in1[1] => Add0.IN3
+in1[2] => Add0.IN2
+in1[3] => Add0.IN1
+in2[0] => Add0.IN8
+in2[1] => Add0.IN7
+in2[2] => Add0.IN6
+in2[3] => Add0.IN5
+clock => out1[0]~reg0.CLK
+clock => out1[1]~reg0.CLK
+clock => out1[2]~reg0.CLK
+clock => out1[3]~reg0.CLK
+out1[0] <= out1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out1[1] <= out1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out1[2] <= out1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out1[3] <= out1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|mux2:inst5
+in1 => out1.DATAB
+in2 => out1.DATAA
+sel => out1.OUTPUTSELECT
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|counter32:inst3
+clk => o~reg0.CLK
+clk => \b:count[0].CLK
+clk => \b:count[1].CLK
+clk => \b:count[2].CLK
+clk => \b:count[3].CLK
+clk => \b:count[4].CLK
+clk => \b:count[5].CLK
+clk => \b:count[6].CLK
+clk => \b:count[7].CLK
+clk => \b:count[8].CLK
+clk => \b:count[9].CLK
+clk => \b:count[10].CLK
+clk => \b:count[11].CLK
+clk => \b:count[12].CLK
+clk => \b:count[13].CLK
+clk => \b:count[14].CLK
+clk => \b:count[15].CLK
+clk => \b:count[16].CLK
+clk => \b:count[17].CLK
+clk => \b:count[18].CLK
+clk => \b:count[19].CLK
+clk => \b:count[20].CLK
+clk => \b:count[21].CLK
+clk => \b:count[22].CLK
+clk => \b:count[23].CLK
+clk => \b:count[24].CLK
+clk => \b:count[25].CLK
+clk => \b:count[26].CLK
+clk => \b:count[27].CLK
+clk => \b:count[28].CLK
+clk => \b:count[29].CLK
+clk => \b:count[30].CLK
+clk => \b:count[31].CLK
+o <= o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|pll:inst1
+inclk0 => altpll:altpll_component.inclk[0]
+c0 <= altpll:altpll_component.clk[0]
+c1 <= altpll:altpll_component.clk[1]
+
+
+|test|pll:inst1|altpll:altpll_component
+inclk[0] => pll.CLK
+inclk[1] => ~NO_FANOUT~
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= <GND>
+clk[3] <= <GND>
+clk[4] <= <GND>
+clk[5] <= <GND>
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= <GND>
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= sclkout1.DB_MAX_OUTPUT_PORT_TYPE
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|test|counter32:inst6
+clk => o~reg0.CLK
+clk => \b:count[0].CLK
+clk => \b:count[1].CLK
+clk => \b:count[2].CLK
+clk => \b:count[3].CLK
+clk => \b:count[4].CLK
+clk => \b:count[5].CLK
+clk => \b:count[6].CLK
+clk => \b:count[7].CLK
+clk => \b:count[8].CLK
+clk => \b:count[9].CLK
+clk => \b:count[10].CLK
+clk => \b:count[11].CLK
+clk => \b:count[12].CLK
+clk => \b:count[13].CLK
+clk => \b:count[14].CLK
+clk => \b:count[15].CLK
+clk => \b:count[16].CLK
+clk => \b:count[17].CLK
+clk => \b:count[18].CLK
+clk => \b:count[19].CLK
+clk => \b:count[20].CLK
+clk => \b:count[21].CLK
+clk => \b:count[22].CLK
+clk => \b:count[23].CLK
+clk => \b:count[24].CLK
+clk => \b:count[25].CLK
+clk => \b:count[26].CLK
+clk => \b:count[27].CLK
+clk => \b:count[28].CLK
+clk => \b:count[29].CLK
+clk => \b:count[30].CLK
+clk => \b:count[31].CLK
+o <= o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|lpm_constant1:inst4
+result[0] <= lpm_constant:LPM_CONSTANT_component.result[0]
+result[1] <= lpm_constant:LPM_CONSTANT_component.result[1]
+result[2] <= lpm_constant:LPM_CONSTANT_component.result[2]
+result[3] <= lpm_constant:LPM_CONSTANT_component.result[3]
+
+
+|test|lpm_constant1:inst4|lpm_constant:LPM_CONSTANT_component
+result[0] <= <VCC>
+result[1] <= <VCC>
+result[2] <= <GND>
+result[3] <= <GND>
+
+

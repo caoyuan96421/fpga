@@ -1,0 +1,16 @@
+
+library ieee;
+use ieee.std_logic_1164;
+use ieee.std_logic_unsigned;
+
+entity counter32 is
+	port(i : in std_logic_vector (31 downto 0); clk: in std_logic; o: out std_logic_vector (31 downto 0));
+end entity;
+
+architecture arch of counter32 is
+begin
+	b: process is
+	begin
+		
+	end process;
+end architecture;

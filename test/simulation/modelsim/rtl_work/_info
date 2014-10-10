@@ -1,0 +1,153 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caoyuan9642\Documents\GitHub\fpga\test\simulation\modelsim
+Ecounter32
+Z1 w1412906797
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\caoyuan9642\Documents\GitHub\fpga\test\simulation\modelsim
+Z7 8C:/Users/caoyuan9642/Documents/GitHub/fpga/test/counter32.vhd
+Z8 FC:/Users/caoyuan9642/Documents/GitHub/fpga/test/counter32.vhd
+l0
+L6
+V;?WjC^PQ9:JlFa]OHRWY51
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1412907154.807000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/caoyuan9642/Documents/GitHub/fpga/test/counter32.vhd|
+Z12 !s107 C:/Users/caoyuan9642/Documents/GitHub/fpga/test/counter32.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 2e0a6`im@<mTMe>bbKQ>o3
+!i10b 1
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 9 counter32 0 22 ;?WjC^PQ9:JlFa]OHRWY51
+l11
+L10
+VkNQ1m5Q4XLI0FMZW:FM>m0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 k1`_:=[Ub;mH6lKDOeaIg3
+!i10b 1
+Elpm_constant1
+Z15 w1412906677
+R4
+R5
+R6
+Z16 8C:/Users/caoyuan9642/Documents/GitHub/fpga/test/lpm_constant1.vhd
+Z17 FC:/Users/caoyuan9642/Documents/GitHub/fpga/test/lpm_constant1.vhd
+l0
+L42
+V^_<UBE1:K62TAWXYW1UR;3
+!s100 zU?cgkhz=cLJc>Iz49H;Q3
+R9
+31
+!i10b 1
+Z18 !s108 1412907154.910000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/caoyuan9642/Documents/GitHub/fpga/test/lpm_constant1.vhd|
+Z20 !s107 C:/Users/caoyuan9642/Documents/GitHub/fpga/test/lpm_constant1.vhd|
+R13
+R14
+Asyn
+R4
+R5
+DEx4 work 13 lpm_constant1 0 22 ^_<UBE1:K62TAWXYW1UR;3
+l68
+L50
+VY9T518oz:_dl0m6U:>QJ62
+!s100 jB<R>[84:Rm=L9bCSQASJ2
+R9
+31
+!i10b 1
+R18
+R19
+R20
+R13
+R14
+Epll
+Z21 w1412906101
+R4
+R5
+R6
+Z22 8C:/Users/caoyuan9642/Documents/GitHub/fpga/test/pll.vhd
+Z23 FC:/Users/caoyuan9642/Documents/GitHub/fpga/test/pll.vhd
+l0
+L42
+VDH2zcZzXl>?fS_4nCIH[<2
+R9
+31
+Z24 !s108 1412907154.562000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/caoyuan9642/Documents/GitHub/fpga/test/pll.vhd|
+Z26 !s107 C:/Users/caoyuan9642/Documents/GitHub/fpga/test/pll.vhd|
+R13
+R14
+!s100 e`IjShIkIigNIC:SVXka63
+!i10b 1
+Asyn
+R4
+R5
+DEx4 work 3 pll 0 22 DH2zcZzXl>?fS_4nCIH[<2
+l128
+L52
+V:XaHNQ1lFLCVU]3iTdSRP0
+R9
+31
+R24
+R25
+R26
+R13
+R14
+!s100 U;L>?cDQ]WiRc2nak:djB0
+!i10b 1
+Etest_block
+Z27 w1412905762
+R2
+R3
+R4
+R5
+R6
+Z28 8C:/Users/caoyuan9642/Documents/GitHub/fpga/test/test_block.vhd
+Z29 FC:/Users/caoyuan9642/Documents/GitHub/fpga/test/test_block.vhd
+l0
+L5
+V6M`3`]FCH<FYYOJJM[8ff0
+R9
+31
+Z30 !s108 1412907154.077000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/caoyuan9642/Documents/GitHub/fpga/test/test_block.vhd|
+Z32 !s107 C:/Users/caoyuan9642/Documents/GitHub/fpga/test/test_block.vhd|
+R13
+R14
+!s100 BMMa3:G_iH1o<239J8fga3
+!i10b 1
+Atest_arch
+R2
+R3
+R4
+R5
+DEx4 work 10 test_block 0 22 6M`3`]FCH<FYYOJJM[8ff0
+l12
+L11
+VJAok@nz_d9Q7NHGRFBE6h3
+R9
+31
+R30
+R31
+R32
+R13
+R14
+!s100 ^2jbo4o5<Wj7f5kA[ni5k1
+!i10b 1

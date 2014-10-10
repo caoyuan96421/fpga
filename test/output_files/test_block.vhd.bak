@@ -1,0 +1,2 @@
+entity test_block is
+	port( in1, in2 : array (3 downto 0) of bit; out1 : array (3 downto 0) of bit);

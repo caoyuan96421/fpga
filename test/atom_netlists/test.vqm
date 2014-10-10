@@ -1,0 +1,607 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "10/09/2014 22:10:57"
+
+module 	test (
+	out,
+	clksrc);
+output 	[3:0] out;
+input 	clksrc;
+wire \counter32:inst3|Add0~0 ;
+wire \counter32:inst3|Add0~4 ;
+wire \counter32:inst3|Add0~6 ;
+wire \counter32:inst3|Add0~10 ;
+wire \counter32:inst3|Add0~14 ;
+wire \counter32:inst3|Add0~18 ;
+wire \counter32:inst3|Add0~32 ;
+wire \counter32:inst3|Add0~36 ;
+wire \counter32:inst3|Add0~38 ;
+wire \counter32:inst3|Add0~42 ;
+wire \counter32:inst3|Add0~46 ;
+wire \pll:inst1|altpll:altpll_component|_clk0 ;
+wire \pll:inst1|altpll:altpll_component|_clk1 ;
+wire \pll:inst1|altpll:altpll_component|pll~CLK2 ;
+wire \counter32:inst3|\b:count[24] ;
+wire \counter32:inst3|\b:count[22] ;
+wire \counter32:inst3|\b:count[20] ;
+wire \counter32:inst3|\b:count[19] ;
+wire \counter32:inst3|\b:count[17] ;
+wire \counter32:inst3|\b:count[10] ;
+wire \counter32:inst3|\b:count[8] ;
+wire \counter32:inst3|\b:count[6] ;
+wire \counter32:inst3|\b:count[4] ;
+wire \counter32:inst3|\b:count[3] ;
+wire \counter32:inst3|\b:count[1] ;
+wire \pll:inst1|altpll:altpll_component|_clk1~clkctrl ;
+wire \counter32:inst3|\b:count[26] ;
+wire \counter32:inst3|\b:count[0]~0 ;
+wire \counter32:inst3|\b:count[0] ;
+wire \counter32:inst3|Add0~1 ;
+wire \counter32:inst3|Add0~2 ;
+wire \counter32:inst3|\b:count[2] ;
+wire \counter32:inst3|Add0~3 ;
+wire \counter32:inst3|Add0~5 ;
+wire \counter32:inst3|Add0~7 ;
+wire \counter32:inst3|Add0~8 ;
+wire \counter32:inst3|\b:count[5] ;
+wire \counter32:inst3|Add0~9 ;
+wire \counter32:inst3|Add0~11 ;
+wire \counter32:inst3|Add0~12 ;
+wire \counter32:inst3|\b:count[7] ;
+wire \counter32:inst3|Add0~13 ;
+wire \counter32:inst3|Add0~15 ;
+wire \counter32:inst3|Add0~16 ;
+wire \counter32:inst3|\b:count[9] ;
+wire \counter32:inst3|Add0~17 ;
+wire \counter32:inst3|Add0~19 ;
+wire \counter32:inst3|Add0~20 ;
+wire \counter32:inst3|\b:count[11] ;
+wire \counter32:inst3|Add0~21 ;
+wire \counter32:inst3|Add0~22 ;
+wire \counter32:inst3|\b:count[12] ;
+wire \counter32:inst3|Add0~23 ;
+wire \counter32:inst3|Add0~24 ;
+wire \counter32:inst3|\b:count[13] ;
+wire \counter32:inst3|Add0~25 ;
+wire \counter32:inst3|Add0~26 ;
+wire \counter32:inst3|\b:count[14] ;
+wire \counter32:inst3|Add0~27 ;
+wire \counter32:inst3|Add0~28 ;
+wire \counter32:inst3|\b:count[15] ;
+wire \counter32:inst3|Add0~29 ;
+wire \counter32:inst3|Add0~30 ;
+wire \counter32:inst3|\b:count[16] ;
+wire \counter32:inst3|Add0~31 ;
+wire \counter32:inst3|Add0~33 ;
+wire \counter32:inst3|Add0~34 ;
+wire \counter32:inst3|\b:count[18] ;
+wire \counter32:inst3|Add0~35 ;
+wire \counter32:inst3|Add0~37 ;
+wire \counter32:inst3|Add0~39 ;
+wire \counter32:inst3|Add0~40 ;
+wire \counter32:inst3|\b:count[21] ;
+wire \counter32:inst3|Add0~41 ;
+wire \counter32:inst3|Add0~43 ;
+wire \counter32:inst3|Add0~44 ;
+wire \counter32:inst3|\b:count[23] ;
+wire \counter32:inst3|Add0~45 ;
+wire \counter32:inst3|Add0~47 ;
+wire \counter32:inst3|Add0~48 ;
+wire \counter32:inst3|\b:count[25] ;
+wire \counter32:inst3|Add0~49 ;
+wire \counter32:inst3|Add0~50 ;
+wire \counter32:inst3|o[26] ;
+wire \counter32:inst3|o[26]~clkctrl ;
+wire \test_block:inst|out1[0]~3 ;
+wire \test_block:inst|out1[0] ;
+wire \test_block:inst|Add0~0 ;
+wire \test_block:inst|out1[1] ;
+wire \test_block:inst|out1[2]~1 ;
+wire \test_block:inst|out1[2] ;
+wire \test_block:inst|out1[3]~0 ;
+wire \test_block:inst|out1[3] ;
+wire [31:0] \counter32:inst3|o ;
+wire [3:0] \test_block:inst|out1 ;
+
+
+wire gnd;
+wire vcc;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+
+
+cycloneii_lcell_comb \counter32:inst3|Add0~0_I (
+	.dataa(\counter32:inst3|\b:count[1] ),
+	.datab(\counter32:inst3|\b:count[0] ),
+	.datad(vcc),
+	.combout(\counter32:inst3|Add0~0 ),
+	.cout(\counter32:inst3|Add0~1 ));
+defparam \counter32:inst3|Add0~0_I .sum_lutc_input = "datac";
+defparam \counter32:inst3|Add0~0_I .lut_mask = "6688";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~4_I (
+	.dataa(\counter32:inst3|\b:count[3] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~3 ),
+	.combout(\counter32:inst3|Add0~4 ),
+	.cout(\counter32:inst3|Add0~5 ));
+defparam \counter32:inst3|Add0~4_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~4_I .lut_mask = "A50A";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~6_I (
+	.dataa(\counter32:inst3|\b:count[4] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~5 ),
+	.combout(\counter32:inst3|Add0~6 ),
+	.cout(\counter32:inst3|Add0~7 ));
+defparam \counter32:inst3|Add0~6_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~6_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~10_I (
+	.dataa(\counter32:inst3|\b:count[6] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~9 ),
+	.combout(\counter32:inst3|Add0~10 ),
+	.cout(\counter32:inst3|Add0~11 ));
+defparam \counter32:inst3|Add0~10_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~10_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~14_I (
+	.dataa(\counter32:inst3|\b:count[8] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~13 ),
+	.combout(\counter32:inst3|Add0~14 ),
+	.cout(\counter32:inst3|Add0~15 ));
+defparam \counter32:inst3|Add0~14_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~14_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~18_I (
+	.dataa(\counter32:inst3|\b:count[10] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~17 ),
+	.combout(\counter32:inst3|Add0~18 ),
+	.cout(\counter32:inst3|Add0~19 ));
+defparam \counter32:inst3|Add0~18_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~18_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~32_I (
+	.dataa(\counter32:inst3|\b:count[17] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~31 ),
+	.combout(\counter32:inst3|Add0~32 ),
+	.cout(\counter32:inst3|Add0~33 ));
+defparam \counter32:inst3|Add0~32_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~32_I .lut_mask = "A50A";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~36_I (
+	.dataa(\counter32:inst3|\b:count[19] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~35 ),
+	.combout(\counter32:inst3|Add0~36 ),
+	.cout(\counter32:inst3|Add0~37 ));
+defparam \counter32:inst3|Add0~36_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~36_I .lut_mask = "A50A";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~38_I (
+	.dataa(\counter32:inst3|\b:count[20] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~37 ),
+	.combout(\counter32:inst3|Add0~38 ),
+	.cout(\counter32:inst3|Add0~39 ));
+defparam \counter32:inst3|Add0~38_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~38_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~42_I (
+	.dataa(\counter32:inst3|\b:count[22] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~41 ),
+	.combout(\counter32:inst3|Add0~42 ),
+	.cout(\counter32:inst3|Add0~43 ));
+defparam \counter32:inst3|Add0~42_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~42_I .lut_mask = "5A5F";
+
+cycloneii_lcell_comb \counter32:inst3|Add0~46_I (
+	.dataa(\counter32:inst3|\b:count[24] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~45 ),
+	.combout(\counter32:inst3|Add0~46 ),
+	.cout(\counter32:inst3|Add0~47 ));
+defparam \counter32:inst3|Add0~46_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~46_I .lut_mask = "5A5F";
+
+cycloneii_pll \pll:inst1|altpll:altpll_component|pll (
+	.inclk({inclk_unconnected_wire_0,clksrc}),
+	.clk({\pll:inst1|altpll:altpll_component|pll~CLK2 ,\pll:inst1|altpll:altpll_component|_clk1 ,\pll:inst1|altpll:altpll_component|_clk0 }));
+defparam \pll:inst1|altpll:altpll_component|pll .operation_mode = "normal";
+defparam \pll:inst1|altpll:altpll_component|pll .valid_lock_multiplier = 1;
+defparam \pll:inst1|altpll:altpll_component|pll .invalid_lock_multiplier = 5;
+defparam \pll:inst1|altpll:altpll_component|pll .compensate_clock = "clk1";
+defparam \pll:inst1|altpll:altpll_component|pll .inclk0_input_frequency = 20000;
+defparam \pll:inst1|altpll:altpll_component|pll .inclk1_input_frequency = 20000;
+defparam \pll:inst1|altpll:altpll_component|pll .gate_lock_signal = "no";
+defparam \pll:inst1|altpll:altpll_component|pll .gate_lock_counter = 0;
+defparam \pll:inst1|altpll:altpll_component|pll .self_reset_on_gated_loss_lock = "off";
+defparam \pll:inst1|altpll:altpll_component|pll .sim_gate_lock_device_behavior = "off";
+defparam \pll:inst1|altpll:altpll_component|pll .bandwidth_type = "auto";
+defparam \pll:inst1|altpll:altpll_component|pll .bandwidth = 0;
+defparam \pll:inst1|altpll:altpll_component|pll .clk0_multiply_by = 6;
+defparam \pll:inst1|altpll:altpll_component|pll .clk1_multiply_by = 1;
+defparam \pll:inst1|altpll:altpll_component|pll .clk2_multiply_by = 1;
+defparam \pll:inst1|altpll:altpll_component|pll .clk0_divide_by = 1;
+defparam \pll:inst1|altpll:altpll_component|pll .clk1_divide_by = 5;
+defparam \pll:inst1|altpll:altpll_component|pll .clk2_divide_by = 1;
+defparam \pll:inst1|altpll:altpll_component|pll .clk0_phase_shift = "0";
+defparam \pll:inst1|altpll:altpll_component|pll .clk1_phase_shift = "0";
+defparam \pll:inst1|altpll:altpll_component|pll .clk2_phase_shift = "0";
+defparam \pll:inst1|altpll:altpll_component|pll .clk0_duty_cycle = 50;
+defparam \pll:inst1|altpll:altpll_component|pll .clk1_duty_cycle = 50;
+defparam \pll:inst1|altpll:altpll_component|pll .clk2_duty_cycle = 50;
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[24]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~46 ),
+	.regout(\counter32:inst3|\b:count[24] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[22]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~42 ),
+	.regout(\counter32:inst3|\b:count[22] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[20]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~38 ),
+	.regout(\counter32:inst3|\b:count[20] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[19]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~36 ),
+	.regout(\counter32:inst3|\b:count[19] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[17]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~32 ),
+	.regout(\counter32:inst3|\b:count[17] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[10]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~18 ),
+	.regout(\counter32:inst3|\b:count[10] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[8]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~14 ),
+	.regout(\counter32:inst3|\b:count[8] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[6]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~10 ),
+	.regout(\counter32:inst3|\b:count[6] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[4]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~6 ),
+	.regout(\counter32:inst3|\b:count[4] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[3]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~4 ),
+	.regout(\counter32:inst3|\b:count[3] ));
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[1]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~0 ),
+	.regout(\counter32:inst3|\b:count[1] ));
+
+cycloneii_clkctrl \pll:inst1|altpll:altpll_component|_clk1~clkctrl_I (
+	.inclk({\pll:inst1|altpll:altpll_component|_clk1 }),
+	.outclk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ));
+defparam \pll:inst1|altpll:altpll_component|_clk1~clkctrl_I .clock_type = "Global Clock";
+defparam \pll:inst1|altpll:altpll_component|_clk1~clkctrl_I .ena_register_mode = "none";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[26]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~50 ),
+	.regout(\counter32:inst3|\b:count[26] ));
+
+cycloneii_lcell_comb \counter32:inst3|\b:count[0]~0_I (
+	.datac(\counter32:inst3|\b:count[0] ),
+	.combout(\counter32:inst3|\b:count[0]~0 ));
+defparam \counter32:inst3|\b:count[0]~0_I .sum_lutc_input = "datac";
+defparam \counter32:inst3|\b:count[0]~0_I .lut_mask = "0F0F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[0]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|\b:count[0]~0 ),
+	.regout(\counter32:inst3|\b:count[0] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~2_I (
+	.datab(\counter32:inst3|\b:count[2] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~1 ),
+	.combout(\counter32:inst3|Add0~2 ),
+	.cout(\counter32:inst3|Add0~3 ));
+defparam \counter32:inst3|Add0~2_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~2_I .lut_mask = "3C3F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[2]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~2 ),
+	.regout(\counter32:inst3|\b:count[2] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~8_I (
+	.datab(\counter32:inst3|\b:count[5] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~7 ),
+	.combout(\counter32:inst3|Add0~8 ),
+	.cout(\counter32:inst3|Add0~9 ));
+defparam \counter32:inst3|Add0~8_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~8_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[5]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~8 ),
+	.regout(\counter32:inst3|\b:count[5] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~12_I (
+	.datab(\counter32:inst3|\b:count[7] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~11 ),
+	.combout(\counter32:inst3|Add0~12 ),
+	.cout(\counter32:inst3|Add0~13 ));
+defparam \counter32:inst3|Add0~12_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~12_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[7]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~12 ),
+	.regout(\counter32:inst3|\b:count[7] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~16_I (
+	.datab(\counter32:inst3|\b:count[9] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~15 ),
+	.combout(\counter32:inst3|Add0~16 ),
+	.cout(\counter32:inst3|Add0~17 ));
+defparam \counter32:inst3|Add0~16_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~16_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[9]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~16 ),
+	.regout(\counter32:inst3|\b:count[9] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~20_I (
+	.datab(\counter32:inst3|\b:count[11] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~19 ),
+	.combout(\counter32:inst3|Add0~20 ),
+	.cout(\counter32:inst3|Add0~21 ));
+defparam \counter32:inst3|Add0~20_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~20_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[11]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~20 ),
+	.regout(\counter32:inst3|\b:count[11] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~22_I (
+	.datab(\counter32:inst3|\b:count[12] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~21 ),
+	.combout(\counter32:inst3|Add0~22 ),
+	.cout(\counter32:inst3|Add0~23 ));
+defparam \counter32:inst3|Add0~22_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~22_I .lut_mask = "3C3F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[12]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~22 ),
+	.regout(\counter32:inst3|\b:count[12] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~24_I (
+	.datab(\counter32:inst3|\b:count[13] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~23 ),
+	.combout(\counter32:inst3|Add0~24 ),
+	.cout(\counter32:inst3|Add0~25 ));
+defparam \counter32:inst3|Add0~24_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~24_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[13]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~24 ),
+	.regout(\counter32:inst3|\b:count[13] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~26_I (
+	.datab(\counter32:inst3|\b:count[14] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~25 ),
+	.combout(\counter32:inst3|Add0~26 ),
+	.cout(\counter32:inst3|Add0~27 ));
+defparam \counter32:inst3|Add0~26_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~26_I .lut_mask = "3C3F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[14]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~26 ),
+	.regout(\counter32:inst3|\b:count[14] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~28_I (
+	.datab(\counter32:inst3|\b:count[15] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~27 ),
+	.combout(\counter32:inst3|Add0~28 ),
+	.cout(\counter32:inst3|Add0~29 ));
+defparam \counter32:inst3|Add0~28_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~28_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[15]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~28 ),
+	.regout(\counter32:inst3|\b:count[15] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~30_I (
+	.datab(\counter32:inst3|\b:count[16] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~29 ),
+	.combout(\counter32:inst3|Add0~30 ),
+	.cout(\counter32:inst3|Add0~31 ));
+defparam \counter32:inst3|Add0~30_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~30_I .lut_mask = "3C3F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[16]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~30 ),
+	.regout(\counter32:inst3|\b:count[16] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~34_I (
+	.datab(\counter32:inst3|\b:count[18] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~33 ),
+	.combout(\counter32:inst3|Add0~34 ),
+	.cout(\counter32:inst3|Add0~35 ));
+defparam \counter32:inst3|Add0~34_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~34_I .lut_mask = "3C3F";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[18]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~34 ),
+	.regout(\counter32:inst3|\b:count[18] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~40_I (
+	.datab(\counter32:inst3|\b:count[21] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~39 ),
+	.combout(\counter32:inst3|Add0~40 ),
+	.cout(\counter32:inst3|Add0~41 ));
+defparam \counter32:inst3|Add0~40_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~40_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[21]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~40 ),
+	.regout(\counter32:inst3|\b:count[21] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~44_I (
+	.datab(\counter32:inst3|\b:count[23] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~43 ),
+	.combout(\counter32:inst3|Add0~44 ),
+	.cout(\counter32:inst3|Add0~45 ));
+defparam \counter32:inst3|Add0~44_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~44_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[23]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~44 ),
+	.regout(\counter32:inst3|\b:count[23] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~48_I (
+	.datab(\counter32:inst3|\b:count[25] ),
+	.datad(vcc),
+	.cin(\counter32:inst3|Add0~47 ),
+	.combout(\counter32:inst3|Add0~48 ),
+	.cout(\counter32:inst3|Add0~49 ));
+defparam \counter32:inst3|Add0~48_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~48_I .lut_mask = "C30C";
+
+cycloneii_lcell_ff \counter32:inst3|\b:count[25]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.datain(\counter32:inst3|Add0~48 ),
+	.regout(\counter32:inst3|\b:count[25] ));
+
+cycloneii_lcell_comb \counter32:inst3|Add0~50_I (
+	.datad(\counter32:inst3|\b:count[26] ),
+	.cin(\counter32:inst3|Add0~49 ),
+	.combout(\counter32:inst3|Add0~50 ));
+defparam \counter32:inst3|Add0~50_I .sum_lutc_input = "cin";
+defparam \counter32:inst3|Add0~50_I .lut_mask = "0FF0";
+
+cycloneii_lcell_ff \counter32:inst3|o[26]~I (
+	.clk(\pll:inst1|altpll:altpll_component|_clk1~clkctrl ),
+	.sdata(\counter32:inst3|Add0~50 ),
+	.sload(vcc),
+	.regout(\counter32:inst3|o[26] ));
+
+cycloneii_clkctrl \counter32:inst3|o[26]~clkctrl_I (
+	.inclk({\counter32:inst3|o[26] }),
+	.outclk(\counter32:inst3|o[26]~clkctrl ));
+defparam \counter32:inst3|o[26]~clkctrl_I .clock_type = "Global Clock";
+defparam \counter32:inst3|o[26]~clkctrl_I .ena_register_mode = "none";
+
+cycloneii_lcell_comb \test_block:inst|out1[0]~3_I (
+	.datac(\test_block:inst|out1[0] ),
+	.combout(\test_block:inst|out1[0]~3 ));
+defparam \test_block:inst|out1[0]~3_I .sum_lutc_input = "datac";
+defparam \test_block:inst|out1[0]~3_I .lut_mask = "0F0F";
+
+cycloneii_lcell_ff \test_block:inst|out1[0]~I (
+	.clk(\counter32:inst3|o[26]~clkctrl ),
+	.datain(\test_block:inst|out1[0]~3 ),
+	.regout(\test_block:inst|out1[0] ));
+
+cycloneii_lcell_comb \test_block:inst|Add0~0_I (
+	.datac(\test_block:inst|out1[1] ),
+	.datad(\test_block:inst|out1[0] ),
+	.combout(\test_block:inst|Add0~0 ));
+defparam \test_block:inst|Add0~0_I .sum_lutc_input = "datac";
+defparam \test_block:inst|Add0~0_I .lut_mask = "F00F";
+
+cycloneii_lcell_ff \test_block:inst|out1[1]~I (
+	.clk(\counter32:inst3|o[26]~clkctrl ),
+	.datain(\test_block:inst|Add0~0 ),
+	.regout(\test_block:inst|out1[1] ));
+
+cycloneii_lcell_comb \test_block:inst|out1[2]~1_I (
+	.datab(\test_block:inst|out1[0] ),
+	.datac(\test_block:inst|out1[2] ),
+	.datad(\test_block:inst|out1[1] ),
+	.combout(\test_block:inst|out1[2]~1 ));
+defparam \test_block:inst|out1[2]~1_I .sum_lutc_input = "datac";
+defparam \test_block:inst|out1[2]~1_I .lut_mask = "0F3C";
+
+cycloneii_lcell_ff \test_block:inst|out1[2]~I (
+	.clk(\counter32:inst3|o[26]~clkctrl ),
+	.datain(\test_block:inst|out1[2]~1 ),
+	.regout(\test_block:inst|out1[2] ));
+
+cycloneii_lcell_comb \test_block:inst|out1[3]~0_I (
+	.dataa(\test_block:inst|out1[1] ),
+	.datab(\test_block:inst|out1[2] ),
+	.datac(\test_block:inst|out1[3] ),
+	.datad(\test_block:inst|out1[0] ),
+	.combout(\test_block:inst|out1[3]~0 ));
+defparam \test_block:inst|out1[3]~0_I .sum_lutc_input = "datac";
+defparam \test_block:inst|out1[3]~0_I .lut_mask = "3C78";
+
+cycloneii_lcell_ff \test_block:inst|out1[3]~I (
+	.clk(\counter32:inst3|o[26]~clkctrl ),
+	.datain(\test_block:inst|out1[3]~0 ),
+	.regout(\test_block:inst|out1[3] ));
+
+assign out[3] = \test_block:inst|out1[3] ;
+
+assign out[2] = \test_block:inst|out1[2] ;
+
+assign out[1] = \test_block:inst|out1[1] ;
+
+assign out[0] = \test_block:inst|out1[0] ;
+
+endmodule
